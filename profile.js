@@ -20,13 +20,13 @@ async function loadPage(){
         console.log(data);
         displaySection.innerHTML = `
         <div class="profile-name">
-            Full Name : ${data.username}
+            Full Name :  ${data.username}
         </div>
         <div class="profile-email">
-            Email : ${data.email}
+            Email :  ${data.email}
         </div>
         <div class="profile-password">
-            Password : ${data.password}
+            Password :  ${data.password}
         </div>
         `
     }, 300); 
