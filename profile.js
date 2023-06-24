@@ -17,7 +17,7 @@ window.addEventListener("load", async () => {
 async function loadPage(){
     setTimeout(() => {
         let data = JSON.parse(localStorage.getItem("userData"));
-        console.log(data);
+        // console.log(data);
         displaySection.innerHTML = `
         <div class="profile-name">
             Full Name :  ${data.username}
